@@ -1,4 +1,4 @@
-# 100 - Refresh Content
+# 100 - 🥬 Refresh Content
 
 The first GitHub action is called "🥬 Refresh Content" and is intended to refresh any content that may have changed. Before describing what it does, let me explain the problem it solves. The previous version of kentcdodds.com was written with Gatsby and due to the SSG nature of Gatsby every time I wanted to make a content change, I would have to rebuild my entire site (which could take anywhere from 10-25 minutes).
 

@@ -22,7 +22,7 @@ Simple: I mock it with MSW!
 
 MSW is a fantastic tool for mocking network requests in both the browser and node. For me, 100% of my 3rd party network requests happen in Remix loaders on the server, so I only have MSW setup in my node server. What I love about MSW is that it's completely nonintrusive on my codebase. The way I get it running is pretty simple. Here's how I start my server:
 
-````
+```
 $ node .
 ```
 

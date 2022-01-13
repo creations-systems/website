@@ -21,6 +21,14 @@ Your password manager can definitely store login information that has only an em
 
 Ok, let's take a look at a diagram of the authentication flow:
 
+![auth-flow-dark](https://user-images.githubusercontent.com/12828104/149367688-fb446026-8207-4c53-8ffd-eb92fbab3775.png)
+
+Authentication Flow
+
+Some things I want to point out with this flow is that there's no interaction with the database until the user has actually signed up. Also, the flow for sign up and login are the same. This simplifies things a fair amount for me.
+
+Now, let's take a look at what happens when a user navigates to an authenticated page.
+
 
 
 

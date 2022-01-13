@@ -19,3 +19,8 @@ See [README.md](./400/README.md)
 ## 500 - Caching with Redis/LRU
 
 See [README.md](./500/README.md)
+
+## 600 - Image optimization with Cloudinary
+
+See [README.md](./600/README.md)
+

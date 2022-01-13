@@ -29,11 +29,16 @@ Some things I want to point out with this flow is that there's no interaction wi
 
 Now, let's take a look at what happens when a user navigates to an authenticated page.
 
+![session-flow-dark](https://user-images.githubusercontent.com/12828104/149367900-2b1c4030-efdc-4b77-a4cd-1b6627475122.png)
 
+Session Flow
 
+The basics of this is pretty simple:
 
+- Get the session ID from the session cookie
+- Get the user ID from the session
+- Get the user
+- Update the expiration time so active users rarely need to re-authenticate
+- If any of these fails, cleanup and redirect
 
-
-
-
-== WE ARE HERE ==
+It's honestly not as complicated as I remembered it being when I hand-rolled authentication years ago in other apps I worked on. Remix helps make it much easier with its cookie session abstraction.
